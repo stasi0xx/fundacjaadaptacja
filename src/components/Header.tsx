@@ -28,9 +28,10 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <h1 className={`text-2xl font-bold transition-colors duration-300 ${
+            <h1 className={`flex items-center text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-blue-800' : 'text-white'
             }`}>
+              <img src="/logo.png" alt="Logo Fundacja Adaptacja" className="h-8 ml-2 mr-3"/>
               Fundacja Adaptacja
             </h1>
           </div>

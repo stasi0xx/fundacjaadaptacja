@@ -6,7 +6,7 @@ const WhyUs = () => {
     {
       icon: <Award className="h-12 w-12 text-orange-500" />,
       title: "Doświadczenie",
-      description: "Wieloletnie doświadczenie w branży eventowej i setki zadowolonych klientów."
+      description: "Wieloletnie doświadczenie w branży eventowej i wielu zadowolonych klientów."
     },
     {
       icon: <Lightbulb className="h-12 w-12 text-orange-500" />,
