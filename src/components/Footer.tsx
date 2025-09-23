@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="col-span-1">
             <h3 className="text-2xl font-bold mb-4 text-orange-400">
-              Fundacja Adaptacja
+              Adaptacja
             </h3>
             <p className="text-gray-300 leading-relaxed">
               Tworzymy niezapomniane wydarzenia, które łączą społeczności 
@@ -60,7 +60,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2025 Fundacja Adaptacja. Wszystkie prawa zastrzeżone.
+            © 2025 Adaptacja. Wszystkie prawa zastrzeżone.
           </p>
         </div>
       </div>

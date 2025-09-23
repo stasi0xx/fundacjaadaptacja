@@ -57,8 +57,8 @@ function PartnerCard({ partner, index }: { partner: Partner; index: number }) {
                     "flex items-center justify-center",
                     "h-20 sm:h-24",
                     "rounded-lg",
-                    "border border-gray-200 dark:border-gray-800",
-                    "bg-white/60 dark:bg-gray-900/60 backdrop-blur-sm",
+                    "border border-blue-200/50 dark:border-blue-800/60",
+                    "bg-blue-800/20 dark:bg-blue-900/30 backdrop-blur-sm",
                     "shadow-sm",
                     "transition-all duration-300",
                     "group-hover:shadow-md group-hover:-translate-y-0.5",
@@ -68,10 +68,10 @@ function PartnerCard({ partner, index }: { partner: Partner; index: number }) {
                     src={partner.logoSrc}
                     alt={partner.alt ?? partner.name}
                     loading="lazy"
-                    className="max-h-10 sm:max-h-12 w-auto object-contain grayscale group-hover:grayscale-0 transition-all duration-300"
+                    className="max-h-12 sm:max-h-14 lg:max-h-16 w-auto object-contain transition-all duration-300"
                 />
             </div>
-            <div className="mt-2 text-center text-sm font-medium text-gray-700 dark:text-gray-300 truncate">
+            <div className="mt-2 text-center text-sm font-medium text-gray-700  truncate">
                 {partner.name}
             </div>
         </a>
@@ -87,7 +87,7 @@ export function TrustedBy({ title = "Zaufali Nam", partners, className }: Truste
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
         <h2
           id="trusted-by-title"
-          className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight text-gray-950  drop-shadow-sm"
+          className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight text-gray-950 drop-shadow-sm"
         >
           {title}
         </h2>

@@ -8,12 +8,12 @@ import Footer from './components/Footer';
 import { TrustedBy, type Partner } from "./components/Partners.tsx";
 
 const partners: Partner[] = [
-    { id: "p1", name: "Acme Corp", logoSrc: "/logos/acme.svg", url: "https://example.com" },
-    { id: "p2", name: "Globex", logoSrc: "/logos/globex.svg", url: "https://example.com" },
-    { id: "p3", name: "Umbrella", logoSrc: "/logos/umbrella.svg" },
-    { id: "p4", name: "Initech", logoSrc: "/logos/initech.svg", url: "https://example.com" },
-    { id: "p5", name: "Stark Industries", logoSrc: "/logos/stark.svg" },
-    { id: "p6", name: "Wayne Enterprises", logoSrc: "/logos/wayne.svg", url: "https://example.com" },
+    { id: "p1", name: "Rada Dzielnicy Cisowa", logoSrc: "/RD Cisowa.jpg", url: "https://www.facebook.com/radacisowa" },
+    { id: "p2", name: "Rada Dzielnicy Chylonia", logoSrc: "/RD Chylonia.png", url: "https://www.facebook.com/profile.php?id=100072032791578" },
+    { id: "p3", name: "Vicotria Dom", logoSrc: "/vitoriaDom.jpg", url: "https://www.victoriadom.pl/" },
+    { id: "p4", name: "Rada Dzielnicy Pustki Cisowskie - Demptowo", logoSrc: "/RD PCD.png", url: "https://www.facebook.com/PustkiCisowskieDemptowo" },
+    { id: "p5", name: "PEWiK", logoSrc: "/PEWIK.png", url:"https://pewik.gdynia.pl/" },
+    { id: "p6", name: "Miasto Gdynia", logoSrc: "/Gdynia.png", url: "https://www.gdynia.pl/" },
 ];
 
 
