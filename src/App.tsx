@@ -15,6 +15,9 @@ const partners: Partner[] = [
     { id: "p4", name: "Rada Dzielnicy Pustki Cisowskie - Demptowo", logoSrc: "/RD PCD.png", url: "https://www.facebook.com/PustkiCisowskieDemptowo" },
     { id: "p5", name: "PEWiK", logoSrc: "/PEWIK.png", url:"https://pewik.gdynia.pl/" },
     { id: "p6", name: "Miasto Gdynia", logoSrc: "/Gdynia.png", url: "https://www.gdynia.pl/" },
+    {id: "p7", name: "Rada Dzielnicy Dąbrowa", logoSrc: "/RDDabrowa.jpg", url: "https://www.facebook.com/DabrowaRada"},
+    {id: "p8", name: "Rada Dzielnicy Obłuże", logoSrc: "/RDObluze.jpg", url: "https://www.facebook.com/RadaDzielnicyObluze"},
+    {id: "p9", name: "Budżet Obywatelski", logoSrc: "/BO.png", url: "https://bo.gdynia.pl/"}
 ];
 
 
