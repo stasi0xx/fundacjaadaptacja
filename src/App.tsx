@@ -6,6 +6,7 @@ import WhyUs from './components/WhyUs';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { TrustedBy, type Partner } from "./components/Partners.tsx";
+import NaszeRealizacje from "./components/Realizations.tsx";
 
 const partners: Partner[] = [
     { id: "p1", name: "Rada Dzielnicy Cisowa", logoSrc: "/RD Cisowa.jpg", url: "https://www.facebook.com/radacisowa" },
@@ -22,6 +23,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <Header />
       <Hero />
+      <NaszeRealizacje />
       <Services />
       <Portfolio />
         <TrustedBy partners={partners} />

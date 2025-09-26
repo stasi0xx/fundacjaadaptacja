@@ -31,8 +31,7 @@ const Header = () => {
             <h1 className={`flex items-center text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-blue-800' : 'text-white'
             }`}>
-              <img src="/logo.png" alt="Logo Adaptacja" className="h-8 ml-2 mr-3"/>
-              Adaptacja
+              <img src="/Spółka.png" alt="Logo Adaptacja" className="h-10 ml-2 mr-3"/>
             </h1>
           </div>
           
